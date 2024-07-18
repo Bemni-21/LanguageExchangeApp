@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Language Exchange</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="channel_name">Language Exchange Notifications</string>
+    <string name="channel_description">Notifications for language pair creations</string>
+
+
+        <string-array name="language_exchange_rules">
+            <item>Respect and Courtesy: Treat all users with respect and courtesy.</item>
+            <item>Clear Communication: Clearly communicate your language learning goals.</item>
+            <item>Commitment to Learning: Dedicate time and effort to language practice.</item>
+            <item>Language Practice: Focus on the language being learned during sessions.</item>
+            <item>Feedback: Provide constructive feedback; receive it gracefully.</item>
+            <item>Privacy and Safety: Respect each others privacy.</item>
+            <item>Cultural Sensitivity: Be aware and respectful of cultural differences.</item>
+            <item>Conflict Resolution: Address conflicts respectfully; seek assistance if needed.</item>
+            <item>Appropriate Content: Refrain from sharing inappropriate or offensive content.</item>
+            <item>  Respect Boundaries: Honor personal boundaries and avoid sensitive topics.</item>
+            <item>  Report Misconduct: Report any user that violate rules.</item>
+        </string-array>
+
+
+</resources>

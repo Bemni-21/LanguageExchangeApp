@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:text="Settings" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileCircleImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/purple"
+                android:src="@drawable/hack"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <TextView
+                android:id="@+id/usernameTextView"
+                style="@style/viewParent.headerText"
+                android:text="Abebe kebede"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/profileCircleImageView"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/email"
+                style="@style/viewParent.headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/usernameTextView"
+                android:layout_toRightOf="@id/profileCircleImageView"
+                android:text="email"
+                android:textColor="#5D5C5C"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <Switch
+            android:id="@+id/darkModeSwitch"
+            style="@style/settingsText"
+            android:drawableLeft="@drawable/ic_dark_mode"
+            android:text="Dark Mode"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Profile"/>
+
+        <TextView
+            android:id="@+id/delete"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_edit_profile"
+            android:text="Delete Account"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Notifications"/>
+
+        <Switch
+            android:id="@+id/notificationsSwitch"
+            style="@style/settingsText"
+            android:layout_width="339dp"
+            android:checked="true"
+            android:drawableLeft="@drawable/ic_notifications"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:text="Notifications" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="Other"/>
+
+        <TextView
+            android:id="@+id/rule"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_languages"
+            android:layout_marginTop="10dp"
+            android:text="Rules and Guidelines"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+        <TextView
+            android:id="@+id/question"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:layout_marginTop="10dp"
+            android:text="Questions"
+            android:drawableStart="@drawable/setting"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+
+        <TextView
+            android:id="@+id/logout"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_logout"
+            android:text="Logout"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

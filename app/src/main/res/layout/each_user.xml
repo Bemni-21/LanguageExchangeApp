@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="12dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewUser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hack"
+                android:scaleType="fitXY" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/userTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/usernameTv"
+        app:layout_constraintEnd_toStartOf="@+id/reportButton"
+        app:layout_constraintStart_toEndOf="@+id/cardViewUser"
+        app:layout_constraintTop_toTopOf="@id/cardViewUser"
+        android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/usernameTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@id/cardViewUser"
+            app:layout_constraintEnd_toEndOf="@id/userTv"
+            app:layout_constraintStart_toStartOf="@id/userTv"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/reportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report User"
+            app:layout_constraintTop_toTopOf="@id/cardViewUser"
+            app:layout_constraintBottom_toBottomOf="@id/cardViewUser"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingHorizontal="16dp"
+            android:backgroundTint="@color/purple"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/opensansregular"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

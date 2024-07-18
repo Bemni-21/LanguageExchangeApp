@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "554461525175",
+    "project_id": "languageexchangeapp-c84bc",
+    "storage_bucket": "languageexchangeapp-c84bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554461525175:android:362b2bbd93771bcd900932",
+        "android_client_info": {
+          "package_name": "com.example.languageexchange"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQlbOXB7nEgC-QXIwjhdRaN8YNQwwZEoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

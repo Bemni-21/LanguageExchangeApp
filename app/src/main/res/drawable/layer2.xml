@@ -1,0 +1,7 @@
+<!-- res/drawable/ic_2_layer.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/exchange"
+        android:width="55dp"
+        android:height="55dp"/>
+</layer-list>
